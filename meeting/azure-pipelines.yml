@@ -38,4 +38,7 @@ jobs:
       # Build
       #----------------------------------------------------------------------
       - script: ./meeting/gradlew -p meeting bootJar -Pprod jibDockerBuild
-        displayName: 'BUILD: jibDockerBuild' 
+        displayName: 'BUILD: jibDockerBuild'
+      - script: sudo docker image tag organization acrdevozs.azurecr.io/organization
+        displayName: 'DOCKER: tag'
+        
