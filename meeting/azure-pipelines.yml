@@ -37,5 +37,5 @@ jobs:
       #----------------------------------------------------------------------
       # Build
       #----------------------------------------------------------------------
-      - script: ./meeting/gradlew -p bootJar -Pprod jibDockerBuild
+      - script: ./meeting/gradlew -p meeting bootJar -Pprod jibDockerBuild
         displayName: 'BUILD: jibDockerBuild'
