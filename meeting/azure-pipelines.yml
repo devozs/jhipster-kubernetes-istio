@@ -28,7 +28,7 @@ jobs:
       #----------------------------------------------------------------------
       - task: Gradle@2
         inputs:
-          gradleWrapperFile: 'gradlew'
+          gradleWrapperFile: './meeting/gradlew'
           workingDirectory: 'meeting'
           tasks: 'build'
           publishJUnitResults: true
