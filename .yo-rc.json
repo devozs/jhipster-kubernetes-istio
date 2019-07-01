@@ -1,0 +1,27 @@
+{
+  "generator-jhipster": {
+    "appsFolders": [
+      "leave",
+      "meeting",
+      "notification",
+      "organization",
+      "ui"
+    ],
+    "directoryPath": "./",
+    "clusteredDbApps": [
+      "leave",
+      "meeting",
+      "notification",
+      "ui"
+    ],
+    "serviceDiscoveryType": false,
+    "jwtSecretKey": "NjZkMjk3NzI2MWFkYjkxZWQ5ZmMzMGFlMjIyYmIxMzcwMjcxYTQzNjg3ZTdmODk3NDUzMmY0NDdiMDM2MTk5Yjg5MTllMjllYjM4MDlkOWUyZjMzZThkNTFlYzhiZDMxYTljMg==",
+    "dockerRepositoryName": "acrdevozs.azurecr.io",
+    "dockerPushCommand": "docker push",
+    "kubernetesNamespace": "office",
+    "kubernetesServiceType": "Ingress",
+    "ingressDomain": ".23.101.74.16.nip.io",
+    "monitoring": "prometheus",
+    "istio": true
+  }
+}
