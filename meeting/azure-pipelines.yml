@@ -32,5 +32,5 @@ jobs:
           chmod +x ./meeting/gradlew
           ./meeting/gradlew -p meeting clean test integrationTest
         displayName: 'TESTS: backend'
-      - script: ./meeting/gradlew bootJar -Pprod -x test
+      - script: ./meeting/gradlew -p bootJar -Pprod -x test
         displayName: 'TESTS: packaging'
