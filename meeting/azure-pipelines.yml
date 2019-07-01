@@ -24,6 +24,18 @@ jobs:
       - script: sudo /etc/init.d/mysql stop
         displayName: 'TOOLS: stop MySQL'
       #----------------------------------------------------------------------
+      # Custom
+      #----------------------------------------------------------------------
+      - task: Gradle@2
+        inputs:
+          gradleWrapperFile: 'gradlew'
+          workingDirectory: 'office'
+          tasks: 'build'
+          publishJUnitResults: true
+          testResultsFiles: '**/TEST-*.xml'
+          javaHomeOption: 'JDKVersion'
+          sonarQubeRunAnalysis: false
+      #----------------------------------------------------------------------
       # Tests
       #----------------------------------------------------------------------
       - script: npm install
