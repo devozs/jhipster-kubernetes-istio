@@ -29,7 +29,7 @@ jobs:
       - script: npm install
         displayName: 'INSTALL: launch npm install'
       - script: |
-          chmod +x gradlew
+          chmod +x ./meeting/gradlew
           ./meeting/gradlew clean test integrationTest
         displayName: 'TESTS: backend'
       - script: ./meeting/gradlew bootJar -Pprod -x test
