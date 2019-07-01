@@ -24,25 +24,13 @@ jobs:
       - script: sudo /etc/init.d/mysql stop
         displayName: 'TOOLS: stop MySQL'
       #----------------------------------------------------------------------
-      # Custom
-      #----------------------------------------------------------------------
-      - task: Gradle@2
-        inputs:
-          gradleWrapperFile: './meeting/gradlew'
-          workingDirectory: 'meeting'
-          tasks: 'build'
-          publishJUnitResults: true
-          testResultsFiles: '**/TEST-*.xml'
-          javaHomeOption: 'JDKVersion'
-          sonarQubeRunAnalysis: false
-      #----------------------------------------------------------------------
       # Tests
       #----------------------------------------------------------------------
       - script: npm install
         displayName: 'INSTALL: launch npm install'
       - script: |
           chmod +x ./meeting/gradlew
-          ./meeting/gradlew clean test integrationTest
+          ./meeting/gradlew -p meeting clean test integrationTest
         displayName: 'TESTS: backend'
       - script: ./meeting/gradlew bootJar -Pprod -x test
         displayName: 'TESTS: packaging'
