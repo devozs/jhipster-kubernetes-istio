@@ -45,4 +45,8 @@ jobs:
         displayName: 'DOCKER: login'
       - script: sudo docker push acrdevozs.azurecr.io/meeting
         displayName: 'DOCKER: push'
+<<<<<<< HEAD
         
+=======
+        
+>>>>>>> 1e2a551970753553532e43d162ca949072794143
