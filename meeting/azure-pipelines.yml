@@ -34,3 +34,8 @@ jobs:
         displayName: 'TESTS: backend'
       - script: ./meeting/gradlew -p meeting bootJar -Pprod -x test
         displayName: 'TESTS: packaging'
+      #----------------------------------------------------------------------
+      # Build
+      #----------------------------------------------------------------------
+      - script: ./meeting/gradlew -p bootJar -Pprod jibDockerBuild
+        displayName: 'BUILD: jibDockerBuild'
