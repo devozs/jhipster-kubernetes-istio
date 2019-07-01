@@ -41,6 +41,8 @@ jobs:
         displayName: 'BUILD: jibDockerBuild'
       - script: sudo docker image tag meeting acrdevozs.azurecr.io/meeting
         displayName: 'DOCKER: tag'
+      - script: sudo docker login acrdevozs.azurecr.io
+        displayName: 'DOCKER: login'
       - script: sudo docker push acrdevozs.azurecr.io/meeting
         displayName: 'DOCKER: push'
         
