@@ -24,7 +24,7 @@
         }
     ],
     "relationships": [],
-    "changelogDate": "20190703131215",
+    "changelogDate": "20190703131248",
     "javadoc": "LEAVE",
     "entityTableName": "employee_leave",
     "dto": "no",

@@ -45,7 +45,7 @@
             "ownerSide": true
         }
     ],
-    "changelogDate": "20190703131220",
+    "changelogDate": "20190703131253",
     "entityTableName": "meeting",
     "dto": "no",
     "pagination": "pagination",
