@@ -39,7 +39,7 @@ jobs:
       #----------------------------------------------------------------------
       - script: ./ui/gradlew -p ui bootJar -Pprod jibDockerBuild
         displayName: 'BUILD: jibDockerBuild'
-      - script: sudo docker ui tag ui acrdevozs.azurecr.io/ui
+      - script: sudo docker image tag ui acrdevozs.azurecr.io/ui
         displayName: 'DOCKER: tag'
       - script: sudo docker login -u acrdevozs -p $(acrdevozspass) acrdevozs.azurecr.io
         displayName: 'DOCKER: login'
