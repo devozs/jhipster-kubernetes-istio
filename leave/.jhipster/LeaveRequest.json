@@ -65,7 +65,7 @@
         }
     ],
     "relationships": [],
-    "changelogDate": "20190622174034",
+    "changelogDate": "20190703131216",
     "entityTableName": "leave_request",
     "dto": "no",
     "pagination": "pagination",

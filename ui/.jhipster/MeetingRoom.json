@@ -24,7 +24,7 @@
         }
     ],
     "relationships": [],
-    "changelogDate": "20190622174036",
+    "changelogDate": "20190703131218",
     "javadoc": "MEETING",
     "entityTableName": "meeting_room",
     "dto": "no",

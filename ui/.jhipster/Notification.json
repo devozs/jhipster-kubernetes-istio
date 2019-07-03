@@ -43,7 +43,7 @@
         }
     ],
     "relationships": [],
-    "changelogDate": "20190622174035",
+    "changelogDate": "20190703131217",
     "javadoc": "NOTIFICATION",
     "entityTableName": "notification",
     "dto": "no",

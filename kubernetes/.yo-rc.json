@@ -14,12 +14,11 @@
     "clusteredDbApps": [],
     "consoleOptions": [],
     "serviceDiscoveryType": false,
-    "dockerRepositoryName": "acrdevozs",
+    "dockerRepositoryName": "acrdevozs.azurecr.io",
     "dockerPushCommand": "docker push",
     "kubernetesNamespace": "office",
     "kubernetesServiceType": "Ingress",
     "ingressDomain": "23.101.74.16.nip.io",
-    "istio": true,
-    "jwtSecretKey": "YWQ1MDdkZTk2NTc4NmNlZTkzNWQxNWZkMzg2MmE1NTU0YjA1NWJhNGQ0MWM4NWUyMmQ3NjE1MzJmMzk5NzI1ZDZhYjgwYmNiZTk2YzQ2YzA5MWE3MTg0MWFmOWYzY2Q1ODk4Yg=="
+    "istio": true
   }
 }

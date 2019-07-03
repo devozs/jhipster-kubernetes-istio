@@ -26,7 +26,7 @@
     "cacheProvider": "hazelcast",
     "buildTool": "gradle",
     "serverPort": "8081",
-    "jhipsterVersion": "6.1.1",
+    "jhipsterVersion": "6.1.2",
     "skipUserManagement": true,
     "clientPackageManager": "npm",
     "jwtSecretKey": "ZWEwOTk5YjkxNDFhNWEzZTA5ZWU5OWUzOGZhOWQyOWE0ZDhiZTc2MzA0MGNmZGRjZjFmN2JhNTYzYzJjYzA5YmEwNmM4OWQ5ZWY0NjE3YmE1OTU3NjkxZjhiOTJlMTcwNDYzOGIwMDgzYTVhYmFiNDhmOTQzYjE4ZDg1NWU2YWM=",
